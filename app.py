@@ -1,4 +1,6 @@
 #recent: removed from requirements.txt: "mysqlclient==2.1.1"
+import warnings
+warnings.filterwarnings("ignore", category=SyntaxWarning)
 
 import streamlit as st, filterDF, mysql.connector as mc, networkx as nx, community.community_louvain as cl, pandas as pd, numpy as np, math as mt, joblib, os
 # import pymysql #recent: added
