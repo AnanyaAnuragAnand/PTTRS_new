@@ -1,6 +1,3 @@
-import warnings
-warnings.filterwarnings("ignore", category=SyntaxWarning)
-
 import streamlit as st, mysql.connector as mysql
 import reset, account_control, home, account_details, developers_info, contacts
 from streamlit_option_menu import option_menu
